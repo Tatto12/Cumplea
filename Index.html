@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body onclick="PlayAudio()">  
+    <section class="container">
+        <audio id="audio1" autoplay  controls loop >
+            <source src="mañanitas.mp3" type="audio/mpeg">
+        </audio>
+        <h1>¡FALTA¡</h1>
+            <div class="countdown">
+                <div>
+                   <p id="days">00</p>
+                   <span>Dias</span>
+                </div>
+                <div>
+                   <p id="hours">00</p>
+                   <span>Horas</span>
+                </div>
+                <div>
+                   <p id="minutes">00</p>
+                   <span>Minutos</span>
+                </div>
+                <div>
+                   <p id="seconds">00</p>
+                   <span>Segundos</span>
+                </div>
+            </div>
+            <div class="fondo2"></div>
+            <div class="fondo3"></div>
+        </div>
+    </section>
+    <section class="final-sms">
+        
+        <h2>Malucita feliz cumpleaños. Espero que este día especial te traiga mucha alegría y que se cumplan todos tus deseos. Eres una persona muy especial en mi vida y me siento afortunado de haberte conocido. Que este nuevo año de vida esté lleno de éxitos, amor, salud y felicidad. ¡Que todos tus sueños se hagan realidad! Te mando un fuerte abrazo y mis mejores deseos en este día tan especial. 🎂 https://raw.githubusercontent.com/doneber/virtual-hug/e31a92d97af94fc7cf9a170ce6cfafb7d5bf00bb/penguin.svg</h2> </section>
+    <script src="codigo.js">
+    </script>
+    <script >
+        function PlayAudio(){
+            document.getElementById('audio1').play();
+     }
+    </script>
+</body>
+</html>
